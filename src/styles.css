@@ -1,1 +1,74 @@
 /* You can add global styles to this file, and also import other style files */
+
+h1, h2 {
+  font-family: lobster, monospace;
+  color: green;
+  text-align: center;
+  text-decoration: underline;
+}
+
+body {
+  background-image: url(assets/grass4.jpg);
+  background-position: right;
+  background-position: bottom;
+  background-color: black;
+  background-repeat: repeat-X;
+  background-position: static;
+}
+
+header {
+  height: 150px;
+  background-color: black;
+  border: solid white 5px;
+  margin: 0 100px;
+  border-radius: 30%;
+}
+
+button {
+  margin: 0 150px;
+}
+
+div>h2 {
+  color: white;
+}
+
+.btn {
+  background-color: black;
+  border: solid white 2px;
+}
+
+#bar {
+  height: 20px;
+  background-color: green;
+  border: solid black 2px;
+  border-radius: 60%;
+  margin: 0 150px;
+}
+
+div {
+  text-align: center;
+  color: silver;
+}
+
+#bar2 {
+  height: 10px;
+  background-color: green;
+  border: solid black 2px;
+  margin-top: 40px;
+}
+
+#nav {
+  border: solid white 3px;
+  margin: 0 100px;
+  background-color: black;
+}
+
+#pic1 {
+  margin: 0 100px;
+}
+
+p {
+  text-align: center;
+  color: white;
+  margin: 0 100px;
+}
